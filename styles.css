@@ -1,0 +1,80 @@
+/* navbar */
+.coloured{
+    background-image: linear-gradient(to bottom right, rgb(42, 40, 40), rgb(54, 52, 52));
+}
+.navbar{
+    background-color: rgb(62, 60, 60);
+    color: aliceblue;
+}
+.navbar-brand{
+    margin-left: 4%;
+    font-family: "Montserrat-black";
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: 700;
+}
+.navbar-nav{
+    margin-right: 2%;
+    font-size: large;
+}
+.nav-link{
+    padding:2%;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.title{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20% auto 20% auto;
+    text-align: center;
+}
+
+/* ABOUT SECTION */
+#about h1{
+    color: rgb(33, 31, 31);
+    padding: 2%;
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+    margin:4% 2%;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+.text-center{
+    color: aliceblue;
+}
+ #services{
+    margin:2% 0;
+    width: 100%;
+ }
+
+.mt-3 h1{
+    color: rgb(42, 39, 39);
+}
+
+/* portfolio section */
+#portfolio{
+    margin: 5% 2%;
+}
+.card-img-top{
+    height: 200px;
+}
